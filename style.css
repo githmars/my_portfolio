@@ -2,6 +2,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  max-width: 870px;
+  width: 100%;
+  margin: auto;
+}
+
 .navbar {
   max-width: 870px;
   width: 100%;
@@ -27,5 +33,76 @@ body {
 
 .nav-link.active {
   font-weight: 700;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.header-photo {
+  width: 212px;
+  height: 212px;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.header-primary {
+  color: #bf7506;
+}
+
+.social-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  padding: 8px;
+  display: inline-block;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.cv-download {
+  padding: 7px 8px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border-bottom: 2px solid #BF7506;
+
+}
+
+.cv-icon {
+  margin-right: 4px;
 
 }
